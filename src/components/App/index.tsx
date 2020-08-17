@@ -15,7 +15,7 @@ export const App: React.FC = () => (
         <BrowserRouter>
           <WithErrorBoundary>
             <WithScrollToTop>
-              <Routes />{' '}
+              <Routes />
             </WithScrollToTop>
           </WithErrorBoundary>
         </BrowserRouter>
